@@ -14,9 +14,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="en">
       <body className={`${inter.className} bg-[#030014] min-h-screen overflow-y-scroll overflow-x-hidden`}>

@@ -27,7 +27,7 @@ const HeroContent = () => {
 
             <span>
             <h1>Jagadeesh</h1>
-            Providing 
+            Provides 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">{" "} the best {" "} </span>
             Project experience
             </span>
@@ -38,7 +38,7 @@ const HeroContent = () => {
         <motion.p
         variants={ slideInFromLeft(0.8) } 
         className="text-lg text-gray-500 my-5 max-w-[600px]">
-            I&apos;m a Full Stack Software Engineer with experience in Website, Mobile, and Software development. Check out my projects skills
+            I&apos;m a Full Stack Software Engineer with experience in Web Application Development. Check out my projects and skills
         </motion.p>
         <motion.a variants= { slideInFromLeft(1)} 
         className="py-2 b button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
